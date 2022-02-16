@@ -1,0 +1,58 @@
+body{
+    height:100vh;
+    align-items:center;
+    justify-content: center;
+    display:flex;
+}
+
+ul
+{
+    /* position:relative; */
+    list-style: none;
+    font-size: 45px;
+
+}
+
+ul  li
+{
+    padding:10px;
+}
+ul > li:nth-child(odd)
+{
+    color:palevioletred;
+}
+ul > li:nth-child(even)
+{
+    color:blue;
+}
+ul >li:first-child
+{
+    background:rgb(85, 42, 165);
+}
+ul > li:nth-child(3)
+{
+    position: relative;
+    background-color:red;
+    left:20px;
+}
+ul > li:nth-child(2)
+{
+    background:palevioletred;
+    position: absolute;
+    top:30px;
+}
+ul > li:nth-child(4)
+{
+    background:rgb(112, 216, 126);
+}
+ul > li:nth-child(5)
+{
+    background:rgb(144, 153, 145);
+}
+
+
+/* 1.position:static(default)
+2.position-relative(ninja) 
+3.position-absolute(thief)
+
+*/

@@ -1,0 +1,32 @@
+.container{
+    background-image: linear-gradient(75deg, #051937, #47234c, #7f2c49, #a24a32, #a47918);
+    border:10px solid hsl(25deg, 40%, 50%);
+    border-style: double;
+    padding:20px 10px;
+    font-style: oblique;
+    border-radius: 5%;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.banner {
+    background:url("https://images3.alphacoders.com/823/thumb-1920-82317.jpg "), linear-gradient(40deg, #051937, #47234c, #7f2c49, #a24a32, #a47918);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height:500px;
+    width:500px;
+}
+
+
+div{
+    width:500px;
+    height: 450px;
+}
+
+
+body
+{
+    font-family: 'Lobster', cursive;
+}

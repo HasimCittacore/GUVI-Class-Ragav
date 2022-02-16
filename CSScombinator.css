@@ -1,0 +1,47 @@
+body
+{
+    height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content
+{
+    color:blue;
+}
+/* child combinator
+.content > p{
+    border:2px solid black;
+} */
+
+
+/* .content p{
+    border:3px solid brown;
+}
+
+.content h1{
+    border: 2px solid rgba(153, 253, 2, 0.959);
+} */
+
+.content > .middle{
+    color:burlywood;
+    border:2px solid black;
+}
+
+/* sibling combinator */
+/* .middle +p{
+    color:brown;
+}
+
+.middle + p + p{
+    color:aqua;
+}
+
+/* tilda combinator or next child combinator
+.middle ~p {
+    border: 2px solid rgba(153, 253, 2, 0.959);
+}
+section > p{
+    color:blueviolet;
+} */

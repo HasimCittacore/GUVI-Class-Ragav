@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Forms</h1>
+    <form>
+    <label for="name">Name</label>
+    <input id="name" type="text" value="" placeholder="Enter your name" required>
+    <br>
+   <br>
+    <label for="password">Password</label>
+    <input id="password" type="password" minlength="8" maxlength="12"  placeholder="Enter your password">
+    <br>
+    <br>
+    <label for="age">Age</label>
+    <input id="age" type="age" min="1" max="120"  placeholder="Enter your age">
+    <br>
+    <br>
+    <label for="email">Email</label>
+    <input id="email" type="email" value="" placeholder="Enter your email">
+    <br>
+    <div>
+        <h4>Gender</h4>
+        <input type="radio" name="gender" value="male" id="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" value="female" id="female">
+        <label for="female">Female</label>
+     </div>
+     <div>
+     <h4>Hobbies</h4>
+     <div>
+        <label for="Badminton">Badminton</label>
+        <input id="Badminton" type="checkbox" name="hobbies">
+     </div>
+     <div>
+        <label for="Cricket">Cricket</label>
+        <input id="Cricket" type="checkbox" name="hobbies">
+     </div>
+     <div>
+        <label for="Movies">Movies</label>
+        <input id="Movies" type="checkbox" name="hobbies">
+     </div>
+     <div>
+        <label for="Football">Football</label>
+        <input id="Football" type="checkbox" name="hobbies">
+     </div>
+
+     </div>
+     <div>
+         <h4>State</h4>
+         <select>
+             <option value="TN">Tamilnadu</option>
+             <option value="Kl">Kerala</option>
+             <option value="KN">Karnataka</option>
+             <option value="AP">AndhraPradesh</option>
+             <option value="PU">Pondicherry</option>
+         </select>
+     </div>
+     <div> 
+      <h4>Date of Birth</h4>
+      <input type="date">
+      </div>
+
+     <div>
+     <h4>Choose Your Fav Colour</h4>
+     <input type="color">
+     </div>
+
+    <h4>Comments</h4>
+    <textarea placeholder="Tell us what's in your mind" cols="30" rows="10"></textarea>
+    <button type="submit">Submit</button>
+</form>
+</body>
+</html>

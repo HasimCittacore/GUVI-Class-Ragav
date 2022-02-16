@@ -1,0 +1,52 @@
+body{
+    height:100vh;
+    align-items:center;
+    justify-content: center;
+    display:flex;
+}
+
+ul
+{
+    list-style: none;
+    font-size: 45px;
+
+}
+
+ul  li
+{
+    padding:10px;
+}
+ul > li:nth-child(odd)
+{
+    color:palevioletred;
+}
+ul > li:nth-child(even)
+{
+    color:blue;
+}
+
+ul > li:first-child
+{
+    border:1px solid black;
+}
+
+ul > li:nth-child(2)
+{
+    border:3px solid blueviolet;
+}
+
+ul > li:nth-child(3),
+ul > li:nth-child(4)
+
+{
+    border:4px solid rgb(27, 184, 27);
+}
+
+
+    
+
+
+ul > li:last-child
+{
+    border:7px solid black;
+}
